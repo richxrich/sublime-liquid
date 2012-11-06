@@ -1,4 +1,4 @@
-# TextMate bundle for Liquid development
+# Sublime bundle for Liquid development
 
 To install with Git:
 
