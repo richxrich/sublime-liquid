@@ -1,0 +1,25 @@
+%YAML 1.2
+---
+# http://www.sublimetext.com/docs/3/syntax.html
+name: Liquid Tag
+file_extensions:
+  - liquid
+scope: meta.tag.liquid
+hidden: true
+
+contexts:
+  main:
+    - match: '\b(if|else|endif|for|endfor|unless|endunless)\b'
+      scope: keyword.control.flow.liquid
+    - match: '(!=|==|<=|>=|<|>)'
+      scope: keyword.operator.logical.liquid
+    - match: '\b(and|or|not|contains|in|by)\b'
+      scope: keyword.operator.liquid
+    - match: '\b(include|assign)\b'
+      scope: keyword.control.liquid
+    - match: '='
+      scope: keyword.operator.assignment.liquid
+    - match: 'blank|empty|true|false|nil'
+      scope: constant.language.liquid
+
+    - include: scope:meta.object.liquid

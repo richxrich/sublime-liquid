@@ -1,21 +1,10 @@
-# Sublime bundle for Liquid development
+# Liquid (and front matter for Jekyll) syntax for Sublime Text
 
-To install with Git:
+Provides syntax highlighting for HTML and Markdown files that contain [Liquid](https://shopify.github.io/liquid/). 
 
-    mkdir -p ~/Library/Application\ Support/TextMate/Bundles
-    cd ~/Library/Application\ Support/TextMate/Bundles
-    git clone git://github.com/andrew/liquid-tmbundle.git "Liquid.tmbundle"
-    osascript -e 'tell app "TextMate" to reload bundles'
+For working with [Jekyll](https://jekyllrb.com), this package will also provide proper syntax highlighting for yaml front matter.
 
+## Usage
 
-To install without Git:
-
-    mkdir -p ~/Library/Application\ Support/TextMate/Bundles
-    cd ~/Library/Application\ Support/TextMate/Bundles
-    wget http://github.com/andrew/liquid-tmbundle/tarball/master
-    tar zxf andrew-liquid-tmbundle*.tar.gz
-    rm andrew-liquid-tmbundle*.tar.gz
-    mv andrew-liquid-tmbundle* "Liquid.tmbundle"
-    osascript -e 'tell app "TextMate" to reload bundles'
-
-Mirrored from: <http://blog.radixhound.com/2007/1/31/liquid-textmate-bundle>
+To enable the syntax, select "Liquid > Liquid HTML" (or Markdown) from the syntax selection menu, or via the command palette. 
+To always open your templates with this syntax, use the "Open all with current extension as ..." option, and select the proper Liquid syntax.
