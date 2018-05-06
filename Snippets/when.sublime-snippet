@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+{% when '${1:matching?}' %}
+	${2:what to do}
+]]></content>
+<tabTrigger>when</tabTrigger>
+<description>liquid when</description>
+<scope>text.html</scope>
+</snippet>

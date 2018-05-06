@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+{% case  ${1:variable} %}
+	{% when '${2:matching?}' %}
+	${3}
+{% endcase %}
+]]></content>
+<tabTrigger>case</tabTrigger>
+<description>liquid case switch</description>
+<scope>text.html</scope>
+</snippet>

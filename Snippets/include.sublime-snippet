@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+{% include $1 %}
+]]></content>
+<tabTrigger>include</tabTrigger>
+<description>liquid include</description>
+<scope>text.html</scope>
+</snippet>

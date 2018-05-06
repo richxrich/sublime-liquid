@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+{% cycle '${1:groupe name}': '${2:first value}', '${3:second value}' %}
+]]></content>
+<tabTrigger>named</tabTrigger>
+<description>liquid named cycle</description>
+<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+{% if  ${1:condition} %}
+	${2:what to do}
+{% endif %}
+]]></content>
+<tabTrigger>if</tabTrigger>
+<description>liquid if</description>
+<scope>text.html</scope>
+</snippet>
