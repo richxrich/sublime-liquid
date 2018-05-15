@@ -15,7 +15,7 @@ contexts:
       scope: keyword.operator.logical.liquid
     - match: '\b(and|or|not|contains|in|by)\b'
       scope: keyword.operator.liquid
-    - match: '\b(include|assign)\b'
+    - match: '\b(include|endcapture|capture|assign)\b'
       scope: keyword.control.liquid
     - match: '='
       scope: keyword.operator.assignment.liquid
