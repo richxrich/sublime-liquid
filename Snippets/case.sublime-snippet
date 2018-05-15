@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-{% case  ${1:variable} %}
+{% case ${1:variable} %}
 	{% when '${2:matching?}' %}
 	${3}
 {% endcase %}
