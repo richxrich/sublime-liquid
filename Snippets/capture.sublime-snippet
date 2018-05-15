@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+{% capture ${1:name} %}
+	${2:content}
+{% endcapture %}
+]]></content>
+<tabTrigger>capture</tabTrigger>
+<description>liquid capture</description>
+<scope>text.html</scope>
+</snippet>
