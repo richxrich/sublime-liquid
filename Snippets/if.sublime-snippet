@@ -2,11 +2,9 @@
 <content><![CDATA[
 {% if  ${1:condition} %}
 	${2:what to do}
-{% else %}
-	${3:what to do else}
 {% endif %}
 ]]></content>
-<tabTrigger>if else</tabTrigger>
-<description>liquid if else</description>
+<tabTrigger>if</tabTrigger>
+<description>liquid if</description>
 <scope>text.html</scope>
 </snippet>
