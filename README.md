@@ -1,8 +1,8 @@
 # Liquid (and front matter for Jekyll) syntax for Sublime Text
 
-Provides syntax highlighting for HTML and Markdown files that contain [Liquid](https://shopify.github.io/liquid/). 
+Provides syntax highlighting for HTML and Markdown files with [Shopify Liquid](https://shopify.github.io/liquid/) template tags.
 
-For working with [Jekyll](https://jekyllrb.com), this package will also provide proper syntax highlighting for yaml front matter.
+For working with [Jekyll](https://jekyllrb.com), this package will also provides proper syntax highlighting for yaml front matter.
 
 ## Usage
 
