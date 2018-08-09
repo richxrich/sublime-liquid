@@ -11,11 +11,11 @@ scope: text.html.markdown.liquid
 
 contexts:
   main:
-    - match: '^---'
+    - match: '^---$'
       scope: frontmatter.jekyll punctuation.section.frontmatter.begin.jekyll
       embed: scope:source.yaml
       embed_scope: frontmatter.jekyll
-      escape: '^---'
+      escape: '^---$'
       escape_captures:
         0: frontmatter.jekyll punctuation.section.frontmatter.end.jekyll
 
