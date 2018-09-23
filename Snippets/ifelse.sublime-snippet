@@ -6,7 +6,7 @@
 	${3:what to do else}
 {% endif %}
 ]]></content>
-<tabTrigger>if else</tabTrigger>
+<tabTrigger>ifelse</tabTrigger>
 <description>liquid if else</description>
 <scope>text.html</scope>
 </snippet>
