@@ -28,6 +28,14 @@ contexts:
               scope: punctuation.definition.comment.end.liquid
               pop: true
 
+        - match: '{%-?\s*schema\s*-?%}'
+          scope: schema.liquid punctuation.section.schema.begin.liquid
+          embed: scope:source.json
+          embed_scope: schema.liquid
+          escape: '{%-?\s*endschema\s*-?%}'
+          escape_captures:
+            0: schema.liquid punctuation.section.schema.end.liquid
+
         - match: '{{'
           scope: punctuation.definition.object.begin.liquid
           embed: scope:meta.object.liquid
