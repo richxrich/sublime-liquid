@@ -19,7 +19,7 @@ contexts:
       scope: keyword.control.liquid
     - match: '='
       scope: keyword.operator.assignment.liquid
-    - match: 'blank|empty|true|false|nil'
+    - match: '\b(blank|empty|true|false|nil)\b'
       scope: constant.language.liquid
 
     - include: scope:meta.object.liquid
