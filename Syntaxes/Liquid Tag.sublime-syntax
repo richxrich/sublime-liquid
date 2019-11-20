@@ -9,7 +9,7 @@ hidden: true
 
 contexts:
   main:
-    - match: '\b(if|else|elsif|endif|for|endfor|unless|endunless)\b'
+    - match: '\b(if|else|elsif|endif|for|endfor|unless|endunless|case|when|endcase)\b'
       scope: keyword.control.flow.liquid
     - match: '(!=|==|<=|>=|<|>)'
       scope: keyword.operator.logical.liquid
