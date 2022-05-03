@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+{% hash_assign ${1:variable} = ${2:value} %}
+]]></content>
+<tabTrigger>hash_assign</tabTrigger>
+<description>liquid hash_assign</description>
+<scope>text.html</scope>
+</snippet>

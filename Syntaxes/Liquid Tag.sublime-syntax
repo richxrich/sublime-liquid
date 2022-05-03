@@ -9,13 +9,13 @@ hidden: true
 
 contexts:
   main:
-    - match: '\b(if|else|elsif|endif|for|endfor|unless|endunless|case|when|endcase)\b'
+    - match: '\b(if|else|elsif|endif|for|endfor|unless|endunless|case|when|endcase|return|echo|print)\b'
       scope: keyword.control.flow.liquid
     - match: '(!=|==|<=|>=|<|>)'
       scope: keyword.operator.logical.liquid
     - match: '\b(and|or|not|contains|in|by|offset)\b'
       scope: keyword.operator.liquid
-    - match: '\b(include|endcapture|capture|assign)\b'
+    - match: '\b(include|function|render|theme_render_rc|theme_render|endcapture|capture|assign|sign_in|response_status|response_headers|redirect_to|hash_assign)\b'
       scope: keyword.control.liquid
     - match: '='
       scope: keyword.operator.assignment.liquid
